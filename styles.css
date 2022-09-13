@@ -2,8 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Fraunces', serif;
-    font-family: 'Fraunces', serif;
+    /* font-family: 'Fraunces', serif; */
 /* font-family: 'Overpass', sans-serif; */
     display: grid;
     grid-template-areas: 
@@ -18,7 +17,7 @@ body {
     background: url("./images/desktop/image-header.jpg");
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 100vh;
     text-align: center;
 }
 
@@ -36,7 +35,7 @@ body {
     background: url("./images/desktop/image-transform.jpg");
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 100vh;
 }
 
 .four {
@@ -44,7 +43,7 @@ body {
     background: url('./images/desktop/image-stand-out.jpg');
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 100vh;
 }
 
 .five {
@@ -58,11 +57,30 @@ body {
 
 .six {
     grid-area: six;
-    background-color: hsl(168, 34%, 41%);
+    background: url('./images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 60px;
+    text-align: center;
 }
 
 .seven {
     grid-area: seven;
+    background: url('./images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 60px;
+    text-align: center;
 }
 
 .button {
@@ -81,4 +99,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 30px;
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
 }
