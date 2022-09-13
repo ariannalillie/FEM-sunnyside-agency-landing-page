@@ -1,0 +1,60 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "one one"
+    "two three"
+    "four five"
+    "six seven";
+}
+
+.one {
+    grid-area: one;
+    background: url("./images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    text-align: center;
+}
+
+.two {
+    grid-area: two;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.three {
+    grid-area: three;
+    background: url("./images/desktop/image-transform.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.four {
+    grid-area: four;
+    background: url('./images/desktop/image-stand-out.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.five {
+    grid-area: five;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.six {
+    grid-area: six;
+    background-color: hsl(168, 34%, 41%);
+}
+
+.seven {
+    grid-area: seven;
+}
